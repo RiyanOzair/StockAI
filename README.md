@@ -135,10 +135,15 @@ This project is licensed under the MIT License.
 ## 👥 Authors
 
 - Riyan Ozair
+- Nabeel Rizwan
+- Samiullah
 
 ## 🙏 Acknowledgments
 
 Based on research from "When AI Meets Finance (StockAgent): Large Language Model-based Stock Trading in Simulated Real-world Environments"
+
+- **Original Repository**: [MingyuJ666/Stockagent](https://github.com/MingyuJ666/Stockagent)
+- **Paper**: [arXiv:2407.18957](https://arxiv.org/pdf/2407.18957)
 
 ---
 
