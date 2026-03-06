@@ -61,8 +61,8 @@ class Agent:
         self.character = random.choice(["Conservative", "Aggressive", "Balanced", "Growth-Oriented"])
 
         self.stock_a_amount, self.stock_b_amount, self.cash, init_debt = random_init(stock_a_price, stock_b_price)
-        #self.stock_b_amount = 0  # stock 以手为单位存储，一手=10股，股价其实是一手的价格
-        self.init_proper = self.get_total_proper(stock_a_price, stock_b_price)  # 初始资产 后续借贷不超过初始资产
+        #self.stock_b_amount = 0 
+        self.init_proper = self.get_total_proper(stock_a_price, stock_b_price)  
 
         self.action_history = [[] for _ in range(util.TOTAL_DATE)]
         self.chat_history = []
